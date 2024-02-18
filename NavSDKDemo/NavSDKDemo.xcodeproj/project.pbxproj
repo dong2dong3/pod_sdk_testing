@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AC4884858E916C94B479867 /* Pods_NavSDKDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4364EF2B14B996A77C5AE17 /* Pods_NavSDKDemoTests.framework */; };
+		1AA992D19B2E575F055DCB03 /* Pods_NavSDKDemo_NavSDKDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F11CF8B2A7D792664772404 /* Pods_NavSDKDemo_NavSDKDemoUITests.framework */; };
+		B8D14E14DBDD1AFE9939F8CC /* Pods_NavSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C088EBD313328B45D5D8D2 /* Pods_NavSDKDemo.framework */; };
+		F0051BE52B81BA7E006E1098 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0051BE42B81BA7E006E1098 /* AppDelegate.swift */; };
+		F0051BE72B81BA7E006E1098 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0051BE62B81BA7E006E1098 /* SceneDelegate.swift */; };
+		F0051BE92B81BA7E006E1098 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0051BE82B81BA7E006E1098 /* ViewController.swift */; };
+		F0051BEC2B81BA7E006E1098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0051BEA2B81BA7E006E1098 /* Main.storyboard */; };
+		F0051BEE2B81BA7F006E1098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0051BED2B81BA7F006E1098 /* Assets.xcassets */; };
+		F0051BF12B81BA7F006E1098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0051BEF2B81BA7F006E1098 /* LaunchScreen.storyboard */; };
+		F0051BFC2B81BA7F006E1098 /* NavSDKDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0051BFB2B81BA7F006E1098 /* NavSDKDemoTests.swift */; };
+		F0051C062B81BA7F006E1098 /* NavSDKDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0051C052B81BA7F006E1098 /* NavSDKDemoUITests.swift */; };
+		F0051C082B81BA7F006E1098 /* NavSDKDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0051C072B81BA7F006E1098 /* NavSDKDemoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0051BF82B81BA7F006E1098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0051BD92B81BA7E006E1098 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0051BE02B81BA7E006E1098;
+			remoteInfo = NavSDKDemo;
+		};
+		F0051C022B81BA7F006E1098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0051BD92B81BA7E006E1098 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0051BE02B81BA7E006E1098;
+			remoteInfo = NavSDKDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029FE61706620928381B5C03 /* Pods-NavSDKDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavSDKDemoTests.release.xcconfig"; path = "Target Support Files/Pods-NavSDKDemoTests/Pods-NavSDKDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		2F11CF8B2A7D792664772404 /* Pods_NavSDKDemo_NavSDKDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavSDKDemo_NavSDKDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40DC56D195CDE1787505238B /* Pods-NavSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-NavSDKDemo/Pods-NavSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		525E636FC51198B46C2F294D /* Pods-NavSDKDemo-NavSDKDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavSDKDemo-NavSDKDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-NavSDKDemo-NavSDKDemoUITests/Pods-NavSDKDemo-NavSDKDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		56514538EF0A6FE8787A23BA /* Pods-NavSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-NavSDKDemo/Pods-NavSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A4C088EBD313328B45D5D8D2 /* Pods_NavSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5F3D031D03EAE32B945FFB /* Pods-NavSDKDemo-NavSDKDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavSDKDemo-NavSDKDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-NavSDKDemo-NavSDKDemoUITests/Pods-NavSDKDemo-NavSDKDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F0051BE12B81BA7E006E1098 /* NavSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0051BE42B81BA7E006E1098 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0051BE62B81BA7E006E1098 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F0051BE82B81BA7E006E1098 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0051BEB2B81BA7E006E1098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0051BED2B81BA7F006E1098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0051BF02B81BA7F006E1098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0051BF22B81BA7F006E1098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0051BF72B81BA7F006E1098 /* NavSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0051BFB2B81BA7F006E1098 /* NavSDKDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavSDKDemoTests.swift; sourceTree = "<group>"; };
+		F0051C012B81BA7F006E1098 /* NavSDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavSDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0051C052B81BA7F006E1098 /* NavSDKDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavSDKDemoUITests.swift; sourceTree = "<group>"; };
+		F0051C072B81BA7F006E1098 /* NavSDKDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavSDKDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F4364EF2B14B996A77C5AE17 /* Pods_NavSDKDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavSDKDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44B1A8CED4077FC0056DCC5 /* Pods-NavSDKDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavSDKDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-NavSDKDemoTests/Pods-NavSDKDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0051BDE2B81BA7E006E1098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D14E14DBDD1AFE9939F8CC /* Pods_NavSDKDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0051BF42B81BA7F006E1098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC4884858E916C94B479867 /* Pods_NavSDKDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0051BFE2B81BA7F006E1098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA992D19B2E575F055DCB03 /* Pods_NavSDKDemo_NavSDKDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FA31D88EFBB6654454AE957 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4C088EBD313328B45D5D8D2 /* Pods_NavSDKDemo.framework */,
+				2F11CF8B2A7D792664772404 /* Pods_NavSDKDemo_NavSDKDemoUITests.framework */,
+				F4364EF2B14B996A77C5AE17 /* Pods_NavSDKDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9C53761AB7FC5F7EC485237 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40DC56D195CDE1787505238B /* Pods-NavSDKDemo.debug.xcconfig */,
+				56514538EF0A6FE8787A23BA /* Pods-NavSDKDemo.release.xcconfig */,
+				525E636FC51198B46C2F294D /* Pods-NavSDKDemo-NavSDKDemoUITests.debug.xcconfig */,
+				BF5F3D031D03EAE32B945FFB /* Pods-NavSDKDemo-NavSDKDemoUITests.release.xcconfig */,
+				F44B1A8CED4077FC0056DCC5 /* Pods-NavSDKDemoTests.debug.xcconfig */,
+				029FE61706620928381B5C03 /* Pods-NavSDKDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		F0051BD82B81BA7E006E1098 = {
+			isa = PBXGroup;
+			children = (
+				F0051BE32B81BA7E006E1098 /* NavSDKDemo */,
+				F0051BFA2B81BA7F006E1098 /* NavSDKDemoTests */,
+				F0051C042B81BA7F006E1098 /* NavSDKDemoUITests */,
+				F0051BE22B81BA7E006E1098 /* Products */,
+				C9C53761AB7FC5F7EC485237 /* Pods */,
+				4FA31D88EFBB6654454AE957 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F0051BE22B81BA7E006E1098 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0051BE12B81BA7E006E1098 /* NavSDKDemo.app */,
+				F0051BF72B81BA7F006E1098 /* NavSDKDemoTests.xctest */,
+				F0051C012B81BA7F006E1098 /* NavSDKDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0051BE32B81BA7E006E1098 /* NavSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F0051BE42B81BA7E006E1098 /* AppDelegate.swift */,
+				F0051BE62B81BA7E006E1098 /* SceneDelegate.swift */,
+				F0051BE82B81BA7E006E1098 /* ViewController.swift */,
+				F0051BEA2B81BA7E006E1098 /* Main.storyboard */,
+				F0051BED2B81BA7F006E1098 /* Assets.xcassets */,
+				F0051BEF2B81BA7F006E1098 /* LaunchScreen.storyboard */,
+				F0051BF22B81BA7F006E1098 /* Info.plist */,
+			);
+			path = NavSDKDemo;
+			sourceTree = "<group>";
+		};
+		F0051BFA2B81BA7F006E1098 /* NavSDKDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0051BFB2B81BA7F006E1098 /* NavSDKDemoTests.swift */,
+			);
+			path = NavSDKDemoTests;
+			sourceTree = "<group>";
+		};
+		F0051C042B81BA7F006E1098 /* NavSDKDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0051C052B81BA7F006E1098 /* NavSDKDemoUITests.swift */,
+				F0051C072B81BA7F006E1098 /* NavSDKDemoUITestsLaunchTests.swift */,
+			);
+			path = NavSDKDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0051BE02B81BA7E006E1098 /* NavSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0051C0B2B81BA7F006E1098 /* Build configuration list for PBXNativeTarget "NavSDKDemo" */;
+			buildPhases = (
+				156479C35CF1D5F67EAB4DCF /* [CP] Check Pods Manifest.lock */,
+				F0051BDD2B81BA7E006E1098 /* Sources */,
+				F0051BDE2B81BA7E006E1098 /* Frameworks */,
+				F0051BDF2B81BA7E006E1098 /* Resources */,
+				401B94B6C26FBFE4AD804598 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavSDKDemo;
+			productName = NavSDKDemo;
+			productReference = F0051BE12B81BA7E006E1098 /* NavSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0051BF62B81BA7F006E1098 /* NavSDKDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0051C0E2B81BA7F006E1098 /* Build configuration list for PBXNativeTarget "NavSDKDemoTests" */;
+			buildPhases = (
+				97AC827D33F5120E2AA10EE8 /* [CP] Check Pods Manifest.lock */,
+				F0051BF32B81BA7F006E1098 /* Sources */,
+				F0051BF42B81BA7F006E1098 /* Frameworks */,
+				F0051BF52B81BA7F006E1098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0051BF92B81BA7F006E1098 /* PBXTargetDependency */,
+			);
+			name = NavSDKDemoTests;
+			productName = NavSDKDemoTests;
+			productReference = F0051BF72B81BA7F006E1098 /* NavSDKDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0051C002B81BA7F006E1098 /* NavSDKDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0051C112B81BA7F006E1098 /* Build configuration list for PBXNativeTarget "NavSDKDemoUITests" */;
+			buildPhases = (
+				0AF67EB19BAE0C3D553B02F5 /* [CP] Check Pods Manifest.lock */,
+				F0051BFD2B81BA7F006E1098 /* Sources */,
+				F0051BFE2B81BA7F006E1098 /* Frameworks */,
+				F0051BFF2B81BA7F006E1098 /* Resources */,
+				3EB75FBABB2EAC27454A4227 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0051C032B81BA7F006E1098 /* PBXTargetDependency */,
+			);
+			name = NavSDKDemoUITests;
+			productName = NavSDKDemoUITests;
+			productReference = F0051C012B81BA7F006E1098 /* NavSDKDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0051BD92B81BA7E006E1098 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					F0051BE02B81BA7E006E1098 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					F0051BF62B81BA7F006E1098 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = F0051BE02B81BA7E006E1098;
+					};
+					F0051C002B81BA7F006E1098 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = F0051BE02B81BA7E006E1098;
+					};
+				};
+			};
+			buildConfigurationList = F0051BDC2B81BA7E006E1098 /* Build configuration list for PBXProject "NavSDKDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0051BD82B81BA7E006E1098;
+			productRefGroup = F0051BE22B81BA7E006E1098 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0051BE02B81BA7E006E1098 /* NavSDKDemo */,
+				F0051BF62B81BA7F006E1098 /* NavSDKDemoTests */,
+				F0051C002B81BA7F006E1098 /* NavSDKDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0051BDF2B81BA7E006E1098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0051BF12B81BA7F006E1098 /* LaunchScreen.storyboard in Resources */,
+				F0051BEE2B81BA7F006E1098 /* Assets.xcassets in Resources */,
+				F0051BEC2B81BA7E006E1098 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0051BF52B81BA7F006E1098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0051BFF2B81BA7F006E1098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AF67EB19BAE0C3D553B02F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NavSDKDemo-NavSDKDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		156479C35CF1D5F67EAB4DCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NavSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EB75FBABB2EAC27454A4227 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NavSDKDemo-NavSDKDemoUITests/Pods-NavSDKDemo-NavSDKDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NavSDKDemo-NavSDKDemoUITests/Pods-NavSDKDemo-NavSDKDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NavSDKDemo-NavSDKDemoUITests/Pods-NavSDKDemo-NavSDKDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		401B94B6C26FBFE4AD804598 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NavSDKDemo/Pods-NavSDKDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NavSDKDemo/Pods-NavSDKDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NavSDKDemo/Pods-NavSDKDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97AC827D33F5120E2AA10EE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NavSDKDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0051BDD2B81BA7E006E1098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0051BE92B81BA7E006E1098 /* ViewController.swift in Sources */,
+				F0051BE52B81BA7E006E1098 /* AppDelegate.swift in Sources */,
+				F0051BE72B81BA7E006E1098 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0051BF32B81BA7F006E1098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0051BFC2B81BA7F006E1098 /* NavSDKDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0051BFD2B81BA7F006E1098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0051C082B81BA7F006E1098 /* NavSDKDemoUITestsLaunchTests.swift in Sources */,
+				F0051C062B81BA7F006E1098 /* NavSDKDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0051BF92B81BA7F006E1098 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0051BE02B81BA7E006E1098 /* NavSDKDemo */;
+			targetProxy = F0051BF82B81BA7F006E1098 /* PBXContainerItemProxy */;
+		};
+		F0051C032B81BA7F006E1098 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0051BE02B81BA7E006E1098 /* NavSDKDemo */;
+			targetProxy = F0051C022B81BA7F006E1098 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0051BEA2B81BA7E006E1098 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0051BEB2B81BA7E006E1098 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0051BEF2B81BA7F006E1098 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0051BF02B81BA7F006E1098 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0051C092B81BA7F006E1098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0051C0A2B81BA7F006E1098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0051C0C2B81BA7F006E1098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40DC56D195CDE1787505238B /* Pods-NavSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76UJ7MTJ4R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NavSDKDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.echo.NavSDK.NavSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0051C0D2B81BA7F006E1098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56514538EF0A6FE8787A23BA /* Pods-NavSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76UJ7MTJ4R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NavSDKDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.echo.NavSDK.NavSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0051C0F2B81BA7F006E1098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F44B1A8CED4077FC0056DCC5 /* Pods-NavSDKDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76UJ7MTJ4R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.echo.NavSDK.NavSDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavSDKDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NavSDKDemo";
+			};
+			name = Debug;
+		};
+		F0051C102B81BA7F006E1098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 029FE61706620928381B5C03 /* Pods-NavSDKDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76UJ7MTJ4R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.echo.NavSDK.NavSDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavSDKDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NavSDKDemo";
+			};
+			name = Release;
+		};
+		F0051C122B81BA7F006E1098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 525E636FC51198B46C2F294D /* Pods-NavSDKDemo-NavSDKDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76UJ7MTJ4R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.echo.NavSDK.NavSDKDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NavSDKDemo;
+			};
+			name = Debug;
+		};
+		F0051C132B81BA7F006E1098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF5F3D031D03EAE32B945FFB /* Pods-NavSDKDemo-NavSDKDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76UJ7MTJ4R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.echo.NavSDK.NavSDKDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NavSDKDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0051BDC2B81BA7E006E1098 /* Build configuration list for PBXProject "NavSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0051C092B81BA7F006E1098 /* Debug */,
+				F0051C0A2B81BA7F006E1098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0051C0B2B81BA7F006E1098 /* Build configuration list for PBXNativeTarget "NavSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0051C0C2B81BA7F006E1098 /* Debug */,
+				F0051C0D2B81BA7F006E1098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0051C0E2B81BA7F006E1098 /* Build configuration list for PBXNativeTarget "NavSDKDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0051C0F2B81BA7F006E1098 /* Debug */,
+				F0051C102B81BA7F006E1098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0051C112B81BA7F006E1098 /* Build configuration list for PBXNativeTarget "NavSDKDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0051C122B81BA7F006E1098 /* Debug */,
+				F0051C132B81BA7F006E1098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0051BD92B81BA7E006E1098 /* Project object */;
+}
