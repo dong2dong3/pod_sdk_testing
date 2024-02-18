@@ -12,3 +12,7 @@
    或者在根目录下执行 pod lib create PODName, 这样就不用手动添加pod的podspec了。ref: https://guides.cocoapods.org/making/making-a-cocoapod.html
 6. pod install
 7. 打开第一步创建的xcworkspace
+8. 以上发现构建出错修复(ref: https://stackoverflow.com/questions/76590131/error-while-build-ios-app-in-xcode-sandbox-rsync-samba-13105-deny1-file-w)
+   <img width="1675" alt="image" src="https://github.com/dong2dong3/pod_sdk_testing/assets/13480371/ad908fa0-d6a8-4c8f-9be7-93cf111d3bba">
+   把project的ENABLE_USER_SCRIPT_SANDBOXING 设置为No.
+
