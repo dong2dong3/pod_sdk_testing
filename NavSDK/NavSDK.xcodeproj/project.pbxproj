@@ -13,6 +13,8 @@
 		F0051B812B81B9FF006E1098 /* NavSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0051B762B81B9FF006E1098 /* NavSDK.framework */; };
 		F0051B862B81B9FF006E1098 /* NavSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0051B852B81B9FF006E1098 /* NavSDKTests.swift */; };
 		F0051B872B81B9FF006E1098 /* NavSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = F0051B792B81B9FF006E1098 /* NavSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0051C172B81D1D7006E1098 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = F0051C152B81D1D7006E1098 /* .gitkeep */; };
+		F0051C182B81D1D7006E1098 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0051C162B81D1D7006E1098 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 		F0051B7A2B81B9FF006E1098 /* NavSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = NavSDK.docc; sourceTree = "<group>"; };
 		F0051B802B81B9FF006E1098 /* NavSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0051B852B81B9FF006E1098 /* NavSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavSDKTests.swift; sourceTree = "<group>"; };
+		F0051C152B81D1D7006E1098 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		F0051C162B81D1D7006E1098 /* ReplaceMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 		F0051B782B81B9FF006E1098 /* NavSDK */ = {
 			isa = PBXGroup;
 			children = (
+				F0051C142B81D1D7006E1098 /* Classes */,
 				F0051B792B81B9FF006E1098 /* NavSDK.h */,
 				F0051B7A2B81B9FF006E1098 /* NavSDK.docc */,
 			);
@@ -116,6 +121,15 @@
 				F0051B852B81B9FF006E1098 /* NavSDKTests.swift */,
 			);
 			path = NavSDKTests;
+			sourceTree = "<group>";
+		};
+		F0051C142B81D1D7006E1098 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F0051C152B81D1D7006E1098 /* .gitkeep */,
+				F0051C162B81D1D7006E1098 /* ReplaceMe.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0051C172B81D1D7006E1098 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0051C182B81D1D7006E1098 /* ReplaceMe.swift in Sources */,
 				F0051B7B2B81B9FF006E1098 /* NavSDK.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,7 +353,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -403,7 +419,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -492,6 +508,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7C5DA18666219A88E6BD386A /* Pods-NavSDK-NavSDKTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 76UJ7MTJ4R;
@@ -509,6 +526,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 110A94E8E6FCAAC17348E266 /* Pods-NavSDK-NavSDKTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 76UJ7MTJ4R;
