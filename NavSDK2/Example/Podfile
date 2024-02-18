@@ -1,0 +1,6 @@
+use_frameworks!
+target 'NavSDK2_Tests' do
+  pod 'NavSDK2', :path => '../'
+  
+  
+end

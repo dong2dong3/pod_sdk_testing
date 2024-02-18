@@ -1,0 +1,21 @@
+PODS:
+  - NavSDK (0.1.0)
+  - NavSDK2 (0.1.0)
+
+DEPENDENCIES:
+  - NavSDK (from `./NavSDK/`)
+  - NavSDK2 (from `./NavSDK2/`)
+
+EXTERNAL SOURCES:
+  NavSDK:
+    :path: "./NavSDK/"
+  NavSDK2:
+    :path: "./NavSDK2/"
+
+SPEC CHECKSUMS:
+  NavSDK: e3aa7bb97944b04db5472434fe8184bb2afd43d5
+  NavSDK2: ecc7d1fd8f471c31c49ce8f3618b6a515ffe1118
+
+PODFILE CHECKSUM: 8cd3a00ef1f067bf26c33826b8583d827b13b8ff
+
+COCOAPODS: 1.13.0

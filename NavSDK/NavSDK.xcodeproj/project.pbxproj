@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5220DC8985E814FB093DB368 /* Pods_NavSDK_NavSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F6E3589123D4867D2039D6 /* Pods_NavSDK_NavSDKTests.framework */; };
+		A131D5B113A3BE18378400D8 /* Pods_NavSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72DBDA3F3743CA184CCEE0D1 /* Pods_NavSDK.framework */; };
+		F0051B7B2B81B9FF006E1098 /* NavSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = F0051B7A2B81B9FF006E1098 /* NavSDK.docc */; };
+		F0051B812B81B9FF006E1098 /* NavSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0051B762B81B9FF006E1098 /* NavSDK.framework */; };
+		F0051B862B81B9FF006E1098 /* NavSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0051B852B81B9FF006E1098 /* NavSDKTests.swift */; };
+		F0051B872B81B9FF006E1098 /* NavSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = F0051B792B81B9FF006E1098 /* NavSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0051B822B81B9FF006E1098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0051B6D2B81B9FF006E1098 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0051B752B81B9FF006E1098;
+			remoteInfo = NavSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		110A94E8E6FCAAC17348E266 /* Pods-NavSDK-NavSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavSDK-NavSDKTests.release.xcconfig"; path = "Target Support Files/Pods-NavSDK-NavSDKTests/Pods-NavSDK-NavSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		1D1A5659C9DAEE1805E0EA09 /* Pods-NavSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavSDK.debug.xcconfig"; path = "Target Support Files/Pods-NavSDK/Pods-NavSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		20F6E3589123D4867D2039D6 /* Pods_NavSDK_NavSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavSDK_NavSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72DBDA3F3743CA184CCEE0D1 /* Pods_NavSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C5DA18666219A88E6BD386A /* Pods-NavSDK-NavSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavSDK-NavSDKTests.debug.xcconfig"; path = "Target Support Files/Pods-NavSDK-NavSDKTests/Pods-NavSDK-NavSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9ED751BB8BFBBCDFF2214A6E /* Pods-NavSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavSDK.release.xcconfig"; path = "Target Support Files/Pods-NavSDK/Pods-NavSDK.release.xcconfig"; sourceTree = "<group>"; };
+		F0051B762B81B9FF006E1098 /* NavSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NavSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0051B792B81B9FF006E1098 /* NavSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavSDK.h; sourceTree = "<group>"; };
+		F0051B7A2B81B9FF006E1098 /* NavSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = NavSDK.docc; sourceTree = "<group>"; };
+		F0051B802B81B9FF006E1098 /* NavSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0051B852B81B9FF006E1098 /* NavSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavSDKTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0051B732B81B9FF006E1098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A131D5B113A3BE18378400D8 /* Pods_NavSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0051B7D2B81B9FF006E1098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0051B812B81B9FF006E1098 /* NavSDK.framework in Frameworks */,
+				5220DC8985E814FB093DB368 /* Pods_NavSDK_NavSDKTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5639B4039618E25E255BA6C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72DBDA3F3743CA184CCEE0D1 /* Pods_NavSDK.framework */,
+				20F6E3589123D4867D2039D6 /* Pods_NavSDK_NavSDKTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBB1BCB394154B1F1AC619C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D1A5659C9DAEE1805E0EA09 /* Pods-NavSDK.debug.xcconfig */,
+				9ED751BB8BFBBCDFF2214A6E /* Pods-NavSDK.release.xcconfig */,
+				7C5DA18666219A88E6BD386A /* Pods-NavSDK-NavSDKTests.debug.xcconfig */,
+				110A94E8E6FCAAC17348E266 /* Pods-NavSDK-NavSDKTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		F0051B6C2B81B9FF006E1098 = {
+			isa = PBXGroup;
+			children = (
+				F0051B782B81B9FF006E1098 /* NavSDK */,
+				F0051B842B81B9FF006E1098 /* NavSDKTests */,
+				F0051B772B81B9FF006E1098 /* Products */,
+				BBB1BCB394154B1F1AC619C9 /* Pods */,
+				5639B4039618E25E255BA6C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F0051B772B81B9FF006E1098 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0051B762B81B9FF006E1098 /* NavSDK.framework */,
+				F0051B802B81B9FF006E1098 /* NavSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0051B782B81B9FF006E1098 /* NavSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F0051B792B81B9FF006E1098 /* NavSDK.h */,
+				F0051B7A2B81B9FF006E1098 /* NavSDK.docc */,
+			);
+			path = NavSDK;
+			sourceTree = "<group>";
+		};
+		F0051B842B81B9FF006E1098 /* NavSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0051B852B81B9FF006E1098 /* NavSDKTests.swift */,
+			);
+			path = NavSDKTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F0051B712B81B9FF006E1098 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0051B872B81B9FF006E1098 /* NavSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F0051B752B81B9FF006E1098 /* NavSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0051B8A2B81B9FF006E1098 /* Build configuration list for PBXNativeTarget "NavSDK" */;
+			buildPhases = (
+				6040A24B4BE206B9A43803BA /* [CP] Check Pods Manifest.lock */,
+				F0051B712B81B9FF006E1098 /* Headers */,
+				F0051B722B81B9FF006E1098 /* Sources */,
+				F0051B732B81B9FF006E1098 /* Frameworks */,
+				F0051B742B81B9FF006E1098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavSDK;
+			productName = NavSDK;
+			productReference = F0051B762B81B9FF006E1098 /* NavSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F0051B7F2B81B9FF006E1098 /* NavSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0051B8D2B81B9FF006E1098 /* Build configuration list for PBXNativeTarget "NavSDKTests" */;
+			buildPhases = (
+				38145B414E6DD4238AE0275C /* [CP] Check Pods Manifest.lock */,
+				F0051B7C2B81B9FF006E1098 /* Sources */,
+				F0051B7D2B81B9FF006E1098 /* Frameworks */,
+				F0051B7E2B81B9FF006E1098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0051B832B81B9FF006E1098 /* PBXTargetDependency */,
+			);
+			name = NavSDKTests;
+			productName = NavSDKTests;
+			productReference = F0051B802B81B9FF006E1098 /* NavSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0051B6D2B81B9FF006E1098 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					F0051B752B81B9FF006E1098 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					F0051B7F2B81B9FF006E1098 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = F0051B702B81B9FF006E1098 /* Build configuration list for PBXProject "NavSDK" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0051B6C2B81B9FF006E1098;
+			productRefGroup = F0051B772B81B9FF006E1098 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0051B752B81B9FF006E1098 /* NavSDK */,
+				F0051B7F2B81B9FF006E1098 /* NavSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0051B742B81B9FF006E1098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0051B7E2B81B9FF006E1098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38145B414E6DD4238AE0275C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NavSDK-NavSDKTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6040A24B4BE206B9A43803BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NavSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0051B722B81B9FF006E1098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0051B7B2B81B9FF006E1098 /* NavSDK.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0051B7C2B81B9FF006E1098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0051B862B81B9FF006E1098 /* NavSDKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0051B832B81B9FF006E1098 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0051B752B81B9FF006E1098 /* NavSDK */;
+			targetProxy = F0051B822B81B9FF006E1098 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F0051B882B81B9FF006E1098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0051B892B81B9FF006E1098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F0051B8B2B81B9FF006E1098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D1A5659C9DAEE1805E0EA09 /* Pods-NavSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 76UJ7MTJ4R;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.echo.NavSDK.NavSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0051B8C2B81B9FF006E1098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED751BB8BFBBCDFF2214A6E /* Pods-NavSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 76UJ7MTJ4R;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.echo.NavSDK.NavSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0051B8E2B81B9FF006E1098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C5DA18666219A88E6BD386A /* Pods-NavSDK-NavSDKTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76UJ7MTJ4R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.echo.NavSDK.NavSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0051B8F2B81B9FF006E1098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 110A94E8E6FCAAC17348E266 /* Pods-NavSDK-NavSDKTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76UJ7MTJ4R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.echo.NavSDK.NavSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0051B702B81B9FF006E1098 /* Build configuration list for PBXProject "NavSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0051B882B81B9FF006E1098 /* Debug */,
+				F0051B892B81B9FF006E1098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0051B8A2B81B9FF006E1098 /* Build configuration list for PBXNativeTarget "NavSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0051B8B2B81B9FF006E1098 /* Debug */,
+				F0051B8C2B81B9FF006E1098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0051B8D2B81B9FF006E1098 /* Build configuration list for PBXNativeTarget "NavSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0051B8E2B81B9FF006E1098 /* Debug */,
+				F0051B8F2B81B9FF006E1098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0051B6D2B81B9FF006E1098 /* Project object */;
+}
